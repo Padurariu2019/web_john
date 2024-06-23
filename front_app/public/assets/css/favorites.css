@@ -1,0 +1,825 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+a {
+	text-decoration:none !important;
+}
+
+ul {
+	list-style-type:none;
+}
+
+body{
+	width:100%;
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+main{
+	margin-bottom:5%;
+}
+nav#wrapper{
+	padding:1rem;
+}
+
+h2#logo {
+	color: #fff;
+	font-family: "GFS Didot", serif;
+	font-weight: 400;
+	line-height: normal;
+    font-size: 500%; 
+    line-height: 1; 
+    margin: 0;
+    vertical-align: middle; 
+}
+
+@media (min-width: 375px) { 
+
+.header {
+	width: 100%;
+	background-color: #000;
+	padding: 0;
+	position: relative;
+}
+
+div#top-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #000;
+}
+
+div#top-bar a#cosmetics{
+	font-size:1.2rem; 
+	width:100%; 
+	border-radius: 7px; 
+	text-transform:uppercase; 
+	background-color:#fff; 
+	background-color:#000;
+}
+
+.cosmetics-button {
+    font-size: 1.2rem;
+    width: 9rem;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: -30px;
+    z-index: 2;
+	text-align: center;
+}
+
+.skin-button {
+    font-size: 1.2rem;
+    width: 9rem;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    background-color: #3A3A3A;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    z-index: 1;
+	text-align: center;
+}
+
+div#my-account{
+	width:60%; 
+	vertical-align:center; 
+	margin-top:20px; 
+	color: #fff;;
+	font-size:2vw;
+}
+
+div#my-account h3{
+	color:#fff;
+}
+
+div#my-account i{
+	padding-right:6px;
+}
+
+nav#wrapper{
+	display:flex;
+	align-items: center;
+}
+
+div.box-type1{
+	width:30%;
+	height:auto;
+	text-align:center;
+	display:flex;
+	font-size:3vw;
+	
+}
+
+div.box-type2{
+	width:40%;
+	text-align:center;
+	height:auto;
+	font-size:3vw;
+}
+
+div.box-type3{
+	width:30%;
+	text-align:center;
+	height:auto;
+	display:flex;
+	font-size:3vw;
+}
+
+div#left-section{
+	width:70%;
+}
+
+div#right-section{
+	width:26%;
+}
+
+.fa-solid{
+	color: #fff;
+	font-size:3vw;
+	margin-top:3vw;
+}
+
+i.fa-bars{
+	color: #fff;
+	font-size:3vw;
+	margin-top:20px;
+}
+
+.fa-heart{
+	color: #fff;
+	font-size:3vw;
+	margin-top:25px;
+}
+
+i.fa-regular
+{
+	color: #fff;
+	font-size:3vw;
+	margin-top:20px;
+}
+
+i.fa-user
+{
+	color: #fff;
+	font-size:2.5vw;
+}
+
+i.fa-magnifying-glass
+{
+	color: #fff;
+	font-size:2vw;
+	margin-top:3vw;
+}
+
+h2#logo {
+	color: #fff;
+	font-family: "GFS Didot", serif;
+	font-weight: 400;
+	line-height: normal;
+    font-size: 6.3vw; 
+    line-height: 1; 
+    margin: 0;
+    vertical-align: middle; 
+	margin-top:1.5vw;
+}
+
+div#my-account{
+	vertical-align:center; 
+	margin:auto; 
+	color:#fff;
+	font-size:2vw;
+}
+
+div#my-account h3{
+	color:white;
+	font-size:1.5vw;
+	margin-top:3vw;
+}
+
+div#my-account i{
+	padding-right:6px;
+}
+
+div#left-section{
+	width:70%;
+}
+
+div#right-section{
+	width:26%;
+}
+
+i.fa-regular
+{
+	color:#fff;
+	font-size: 2vw;
+	margin-top:3vw;
+}
+
+i.fa-user
+{
+	color:#fff;
+	font-size:1.5vw;
+	margin-top:3vw;
+}	
+
+input.search-box{
+	width:10vw;
+	height: 2.5vw;
+}
+
+div#menu{
+	width:30%;
+}
+
+ul.menu-ul, ul.submenu{
+  list-style-type: none;
+  padding:0;	
+  opacity:100%;
+}
+
+.menu-ul li {
+  display: inline-block;
+  position: relative;
+  text-decoration:none;
+  font-size:3rem;
+  padding:1px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.menu-ul li a{
+  color:#fff;
+  font-size:34px;
+  text-align:center;
+  vertical-align:middle;
+
+}
+
+.menu-ul li.collapsed .submenu {
+  display: none;
+}
+
+.menu-ul li:hover .submenu {
+  display: block;
+}
+
+.menu-ul .submenu {
+  position: absolute;
+  top: 100%;
+  left:50%;
+  min-width:10rem;
+  background-color: rgba(0,0,0,0.5);
+  
+}
+
+ul.submenu{
+	padding-top:0px;
+	border-radius:5px;
+	height:auto !important;
+	min-height:10rem;
+	height:auto;
+	padding-bottom:2rem;
+	padding-left:1rem;
+}
+
+.submenu li {
+  display: block;
+  text-align:left;
+  min-width:4rem;
+  left:0;
+  margin-left:5px;
+  padding:0;
+  max-height:2rem;
+  
+}
+
+.menu-ul .submenu li a{
+  color:#fff;
+  text-decoration:none;
+  font-size:20px;
+}
+
+input.search-box{
+	border-radius:6px;
+	margin-top:30px;
+}
+
+div#page1-imgs {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.card:first-child {
+	flex: 0 0 40%; 
+}
+
+.card:not(:first-child) {
+	flex: 1; 
+}
+
+.card img {
+	width: 100%; 
+	height: auto; 
+	object-fit: cover; 
+}
+
+#preferences-title{
+	background-color:#000;
+	width:15rem; 
+	height:3rem; 
+	text-align:center; 
+	border-radius: 20px;
+	margin:auto; 
+}
+
+.page1-card-wrapper{
+	display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+	margin-top:-80px;
+}
+
+.card-type2 {
+	width: 70%; 
+    height: auto; 
+    margin: 10px 0;
+    background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
+    text-align: center;
+    margin: 1.2%;
+    height: 47vw;
+    color: #fff;
+    border-radius: 20px; 
+    box-shadow: 0 0 10px 3px #73bcc2; 
+	overflow:hidden;
+	position:relative;
+	margin-top: 100px;
+}
+
+.card-type2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    z-index: -1;
+	margin-top: -20px;
+}
+
+.preferences{
+	position: relative;
+	color: #fff;
+	text-align: center;
+	font-size: 45px;
+	transform: translateY(115%);
+}
+
+.subtitle{
+	font-size: 20px;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.black-bar {
+	margin-top: 40px;
+    width: 100%; 
+    height: 12em; 
+    background-color: #000;
+	position:absolute;
+}
+
+.card-type2 h1{
+	font-size:38px;
+	text-transform:lowercase;
+	font-size:5vw;
+}
+
+ul.page1-cards li{
+	text-align:left;
+	font-size:2.5vw;
+	margin-left:-5vw;
+}
+
+label.checkbox input[type="checkbox"]{
+	width:1rem;
+	height:1rem;
+	border:2px solid #000;
+	font-size:5vw;
+}
+
+label .checkbox{
+	font-size:5vw;
+}
+
+h1{
+	font-size:5vw;
+}
+
+#btn-wrapper{
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	text-align: center; 
+	margin: 2rem auto; 
+}
+
+.step-container {
+	margin-top:-5vw;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;  
+    padding: 20px;  
+	font-size:3vw;
+}
+
+.nextbtn {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;  
+}
+
+a.pink-btn{
+	margin-top:10px; 
+	color: #fff; 
+	font-size: 1.5vw;
+	background-color: #D4BAA7; 
+	border-radius: 10px;
+	text-align: center; 
+	padding: 1rem;
+}
+
+
+}
+
+@media (min-width: 768px) { 
+	.header {
+	position:relative;
+	background-color: #000;
+	}
+
+div#top-bar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size:80%;
+	margin-bottom:-2vw;
+}
+
+h2#logo {
+	color:#fff;
+	font-family: "GFS Didot", serif;
+	font-weight: 400;
+	line-height: normal;
+    font-size: 6.3vw; 
+    line-height: 1; 
+    margin: 0;
+    vertical-align: middle; 
+	margin-top:1.5vw;
+}
+
+div.box-type1{
+	width:30%;
+	text-align:center;
+	display:flex;
+	font-size: 1.5vw;
+}
+
+div.box-type2{
+	width:40%;
+	text-align:center;
+	font-size: 1.5vw;
+}
+
+div.box-type3{
+	width:30%;
+	text-align:center;
+	display:flex;
+	font-size: 1.5vw;
+}
+
+div#my-account{
+	vertical-align:center; 
+	margin:auto; 
+	color:#fff;
+	font-size:2vw;
+
+}
+
+div#my-account h3{
+	color:#fff;
+	margin-top:15px;
+}
+
+div#my-account i{
+	padding-right:6px;
+}
+
+div#left-section{
+	width:70%;
+}
+
+div#right-section{
+	width:26%;
+}
+
+.fa-solid{
+	color:#fff;
+	font-size:1.5vw;
+	margin-top:3vw;
+}
+
+i.fa-bars{
+	color:#fff;
+	font-size:3vw;
+	margin-top:35px;
+}
+
+.fa-heart{
+	color:#fff;
+	font-size:3vw;
+	margin-top:35px;
+}
+
+i.fa-regular
+{
+	color:#fff; 
+	font-size: 2vw;
+	margin-top:3vw;
+}
+
+i.fa-user
+{
+	color:#fff;
+	font-size:1.5vw;
+	margin-top:3vw;
+}
+
+i.fa-magnifying-glass
+{
+	color:#fff; 
+	font-size:1.5vw;
+	margin-top:3vw;
+}
+
+input.search-box{
+	width:10vw;
+	height: 2.5vw;
+}
+
+.page1-card-wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content:center; 
+	align-items:center;
+	margin-bottom:5%;
+	margin-top:-15vw;
+	position: relative;
+}
+
+.card-type2 {
+    width: 22%;
+    background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
+    text-align: center;
+    height: 55vh;
+    color: #fff;
+    border-radius: 20px; 
+    box-shadow: 0 0 10px 3px #73bcc2; 
+	overflow:hidden;
+	position:relative;
+	margin-top: 100px;
+}
+
+.card-type2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    z-index: -1;
+}
+
+#preferences-title{
+	background-color:#000;
+	width:15rem; 
+	height:3rem; 
+	text-align:center; 
+	border-radius: 20px;
+	margin:auto; 
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-top: 80px; 
+	margin-bottom: 11vw;
+}
+
+.black-bar {
+	margin-top: 40px;
+    width: 100%; 
+    height: 12em; 
+    background-color: #000;
+	position:absolute;
+}
+
+.card-type2 h1{
+	font-size:38px;
+	text-transform:lowercase;
+}
+
+ul.page1-cards li{
+	text-align:left;
+}
+
+label.checkbox input[type="checkbox"]{
+	width:1rem;
+	height:1rem;
+	border:2px solid #000;
+	margin-left: 4vw;
+}
+
+label .checkbox{
+	display:block;
+
+}
+
+}
+
+:root {
+    --main-bg-color: #f0f0f0;
+    --text-color: #333;
+    --button-bg-color: #e7e7e7;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+nav, section, footer {
+    padding: 20px;
+}
+
+.gfs-didot-regular {
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.first-title-bar {
+    margin-top: 50px; 
+}
+
+.title-bar {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; 
+}
+
+.my-favorites, .popular-products, .rankings {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.my-favorites {
+    background: url('../images/linie.jpg') center/cover no-repeat;
+}
+
+.popular-products {
+    background: url('../images/linie2.jpg') center/cover no-repeat;
+}
+
+.rankings {
+    background: url('../images/linie3.jpg') center/cover no-repeat;
+}
+
+.first-title-bar {
+    margin-top: 50px; 
+}
+
+
+#favorites-gallery, #popular-products-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 30px; 
+}
+
+img {
+    margin: 0 20px; 
+    width: 150px; 
+    height: auto;
+}
+
+.rounded-button {
+    background-color: #DB658C; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 16px 32px; 
+    margin: 10px; 
+    border-radius: 15px; 
+    cursor: pointer;
+    display: inline-block; 
+    font-size: 16px; 
+}
+
+footer {
+    text-align: center; 
+    padding: 20px; 
+}
+
+h1, h4, h3 {
+    color: #FFFFFF; 
+    font-size: 25px; 
+    display: inline; 
+    margin: 0; 
+
+}
+
+.rounded-button:hover {
+    background-color: #ddd;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav, section, footer {
+        padding: 10px;
+    }
+
+    .title-bar {
+        padding: 15px 0;
+    }
+
+    #favorites-gallery img, #popular-products-gallery img {
+        width: 100px;
+    }
+
+
+    .rounded-button {
+        padding: 10px 20px;
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .title-bar {
+        padding: 10px 0;
+    }
+
+    #favorites-gallery, #popular-products-gallery {
+        flex-direction: column;
+    }
+
+    .rounded-button {
+        padding: 8px 16px;
+        font-size: 85%;
+    }
+}
